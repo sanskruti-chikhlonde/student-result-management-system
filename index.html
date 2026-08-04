@@ -4,27 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Result Management System</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
      <div class="container">
         <h1>GradeBook</h1>
         <p>Student Result Management System</p>
-     </div>
+    
 
      <h2>Student Information</h2>
 
-     <lebel for="studentName">Student Name</lebel>
+     <label for="studentName">Student Name</lebel>
      <input type="text" id="studentName" placeholder="Enter student name">
      
-     <lebel for="rollNumber">Roll Number</lebel>
+     <label for="rollNumber">Roll Number</lebel>
      <input type="number" id="rollNumber" placeholder="Enter roll number">
 
      <h2>Subject Information</h2>
 
-     <lebel for="subject1">Subject 1 Name</lebel>
+     <label for="subject1">Subject 1 Name</lebel>
      <input type="text" id="subject1" placeholder="Enter subject name">
 
-     <lebel for="mark1">subject 1 marks</lebel>
+     <label for="marks 1">subject 1 marks</lebel>
      <input type="number" id="marks1" placeholder="Enter marks">
 
      <label for="subject2">Subject 2 Name</label>
@@ -55,6 +57,8 @@
       
      <hr>
 
+     <div id="result">
+        
      <h2>Result</h2>
 
      <p><strong>Total Marks:</strong> <span id="totalMarks">0</span></p>
@@ -66,6 +70,9 @@
      <p><strong>Grade:</strong> <span id="grade">F</span></p>
 
      <p><strong>Status:</strong> <span id="status">-</span></p>
+
+    </div>
+      </div>
 
     </body>
 </html>
