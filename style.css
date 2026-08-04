@@ -70,3 +70,11 @@ button:hover{
     background-color: #4338ca;
 }
 
+hr{
+    margin: 30px 0;
+}
+
+#result{
+    margin-top: 20px;
+}
+
