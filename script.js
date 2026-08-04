@@ -1,7 +1,7 @@
 // student Information
 
-const studentName = document.getElementsByName ("studentName");
-const rollNumber = document.getElementsById ("rollNumber");
+const studentName = document.getElementById("studentName");
+const rollNumber = document.getElementById("rollNumber");
 
 //subject Name
 
@@ -30,3 +30,9 @@ const average = document.getElementById("average");
 const percentage = document.getElementById("percentage");
 const grade = document.getElementById("grade");
 const status = document.getElementById("status");
+
+calculateBtn.addEventListener("click", function () {
+
+    console.log("Calculate Result Button Clicked");
+
+});
