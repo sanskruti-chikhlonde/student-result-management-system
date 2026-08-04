@@ -33,6 +33,29 @@ const status = document.getElementById("status");
 
 calculateBtn.addEventListener("click", function () {
 
-    console.log("Calculate Result Button Clicked");
+    let studentNameValue = studentName.value;
+    let rollNumberValue = rollNumber.value;
+
+    let subject1Value = subject1.value;
+    let subject2Value = subject2.value;
+    let subject3Value = subject3.value;
+    let subject4Value = subject4.value;
+    let subject5Value = subject5.value;
+
+    let marks1Value = Number(marks1.value);
+    let marks2Value = Number(marks2.value);
+    let marks3Value = Number(marks3.value);
+    let marks4Value = Number(marks4.value);
+    let marks5Value = Number(marks5.value);
+
+    console.log(studentNameValue);
+    console.log(rollNumberValue);
+
+    console.log(subject1Value, marks1Value);
+    console.log(subject2Value, marks2Value);
+    console.log(subject3Value, marks3Value);
+    console.log(subject4Value, marks4Value);
+    console.log(subject5Value, marks5Value);
+
 
 });
